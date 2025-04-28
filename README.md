@@ -8,4 +8,5 @@ Terdiri dari dua soal:
 
 ## Penjelasan Teori
 Sistem pakar adalah bagian dari kecerdasan buatan yang mencoba meniru kemampuan pengambilan keputusan manusia berdasarkan pengetahuan tertentu. Sistem pakar menggunakan kumpulan aturan (rules) untuk mengambil kesimpulan dari fakta-fakta yang diberikan.
+
 Pada soal ini, kita menggunakan pendekatan forward chaining, di mana inferensi dilakukan dengan mencocokkan gejala (fakta) dengan aturan untuk menentukan kemungkinan jenis hama
