@@ -1,0 +1,34 @@
+Kasus: Seseorang petani ingin sistem AI yang bisa membantu menentukan jenis hama tanaman berdasarkan gejala seperti: 
+	- Daun menguning
+	- Terdapat bercak hitam
+	- Daun berlubang
+	- Tanaman layu
+
+Jawab: 
+1. Sistem Pakar Berbasis Aturan:
+	- Jika daun menguning, maka tanaman mungkin diserang kutu putih.
+	- Jika bercak hitam muncul, maka kemungkinan jamur daun menyerang.
+	- Jika daun berlubang, kemungkinan besar disebabkan oleh ulat daun.
+	- Jika tanaman tampak layu, mungkin disebabkan oleh serangan nematoda.
+
+2. Logika Proposisional:
+	- P1: daun_menguning -> kutu_putih
+	- P2: bercak_hitam -> jamur_daun
+	- P3: daun_berlubang -> ulat_daun
+	- P4: tanaman_layu -> nematoda
+
+   Pseudocode:
+	Input: Gejala tanaman
+	Output: Jenis hama
+
+	IF daun_menguning THEN hama = kutu putih
+	IF bercak_hitam THEN hama = jamur daun
+	IF daun_berlubang THEN hama = ulat daun
+	IF tanaman_layu THEN hama = nematoda
+
+3. Inferensi dari Input -> Output
+	- Input: "Daun menguning dan bercak hitam"
+	- Proses: 
+		- Daun menguning -> kutu putih
+		- Bercak hitam -> jamur daun
+	- Output: "Tanaman kemungkinan terkena kutu putih dan jamur daun."
